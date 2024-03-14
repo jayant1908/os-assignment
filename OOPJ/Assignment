@@ -1,0 +1,83 @@
+public class WideningConversion {
+    public static void main(String[] args) {
+        int intValue = 10; // Declaring an int variable and assigning a value
+        double doubleValue = intValue; // Widening conversion from int to double
+        
+        System.out.println("Original int value: " + intValue);
+        System.out.println("Widened double value: " + doubleValue);
+    }
+}
+public class NarrowingConversion {
+    public static void main(String[] args) {
+        double doubleValue = 10.5; // Declaring a double variable and assigning a value
+        int intValue = (int) doubleValue; // Narrowing conversion from double to int
+        
+        System.out.println("Original double value: " + doubleValue);
+        System.out.println("Narrowed int value: " + intValue);
+    }
+}
+public class ArithmeticOperations {
+    public static void main(String[] args) {
+        int intValue = 5;
+        double doubleValue = 2.5;
+        float floatValue = 1.5f;
+
+        // Addition
+        double resultAddition = intValue + doubleValue;
+        float resultAddition2 = intValue + floatValue;
+
+        // Subtraction
+        double resultSubtraction = doubleValue - intValue;
+        float resultSubtraction2 = floatValue - intValue;
+
+        // Multiplication
+        double resultMultiplication = intValue * doubleValue;
+        float resultMultiplication2 = intValue * floatValue;
+
+        // Division
+        double resultDivision = doubleValue / intValue;
+        float resultDivision2 = floatValue / intValue;
+
+        // Print results
+        System.out.println("Addition result (int + double): " + resultAddition);
+        System.out.println("Addition result (int + float): " + resultAddition2);
+        System.out.println("Subtraction result (double - int): " + resultSubtraction);
+        System.out.println("Subtraction result (float - int): " + resultSubtraction2);
+        System.out.println("Multiplication result (int * double): " + resultMultiplication);
+        System.out.println("Multiplication result (int * float): " + resultMultiplication2);
+        System.out.println("Division result (double / int): " + resultDivision);
+        System.out.println("Division result (float / int): " + resultDivision2);
+    }
+}
+Addition result (int + double): 7.5
+Addition result (int + float): 6.5
+Subtraction result (double - int): -2.5
+Subtraction result (float - int): -3.5
+Multiplication result (int * double): 12.5
+Multiplication result (int * float): 7.5
+Division result (double / int): 0.5
+Division result (float / int): 0.3
+public class WideningConversionDemo {
+    public static void main(String[] args) {
+        int intValue = 42;
+
+        // Widening conversion to double
+        double doubleValue = intValue;
+
+        // Widening conversion to float
+        float floatValue = intValue;
+
+        // Widening conversion to String
+        String stringValue = Integer.toString(intValue);
+
+        // Print results
+        System.out.println("Original int value: " + intValue);
+        System.out.println("Widened double value: " + doubleValue);
+        System.out.println("Widened float value: " + floatValue);
+        System.out.println("Converted String value: " + stringValue);
+    }
+}
+Original int value: 42
+Widened double value: 42.0
+Widened float value: 42.0
+Converted String value: 42
