@@ -1,0 +1,196 @@
+1
+
+public class Employee {
+    private String name;
+    private int employeeId;
+    private double salary;
+
+    // Constructor with name and employeeId
+    public Employee(String name, int employeeId) {
+        this.name = name;
+        this.employeeId = employeeId;
+    }
+
+    // Overloaded constructor with name, employeeId, and salary
+    public Employee(String name, int employeeId, double salary) {
+        this.name = name;
+        this.employeeId = employeeId;
+        this.salary = salary;
+    }
+
+    // Overloaded method to set salary
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    // Overloaded method to set salary (accepts int)
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    // Overloaded method to display employee details
+    public void displayDetails() {
+        System.out.println("Employee ID: " + employeeId);
+        System.out.println("Name: " + name);
+        System.out.println("Salary: $" + salary);
+    }
+
+    public static void main(String[] args) {
+        // Create an Employee object using the constructor with name and employeeId
+        Employee emp1 = new Employee("John Doe", 101);
+
+        // Set salary using the overloaded method (double)
+        emp1.setSalary(60000.0);
+
+        // Display employee details
+        emp1.displayDetails();
+
+        System.out.println();
+
+        // Create another Employee object using the constructor with name, employeeId, and salary
+        Employee emp2 = new Employee("Jane Smith", 102, 75000.0);
+
+        // Display employee details
+        emp2.displayDetails();
+
+        System.out.println();
+
+        // Set salary using the overloaded method (int)
+        emp2.setSalary(80000);
+
+        // Display updated employee details
+        emp2.displayDetails();
+    }
+}
+
+
+2
+
+public class Employee {
+    private String name;
+    private int employeeId;
+    private double salary;
+
+    // Constructor with name and employeeId
+    public Employee(String name, int employeeId) {
+        this.name = name;
+        this.employeeId = employeeId;
+    }
+
+    // Overloaded constructor with name, employeeId, and salary
+    public Employee(String name, int employeeId, double salary) {
+        this.name = name;
+        this.employeeId = employeeId;
+        this.salary = salary;
+    }
+
+    // Overloaded method to set salary
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    // Overloaded method to set salary (accepts int)
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    // Overloaded method to display employee details
+    public void displayDetails() {
+        System.out.println("Employee ID: " + employeeId);
+        System.out.println("Name: " + name);
+        System.out.println("Salary: $" + salary);
+    }
+
+    public static void main(String[] args) {
+        // Create an Employee object using the constructor with name and employeeId
+        Employee emp1 = new Employee("John Doe", 101);
+
+        // Set salary using the overloaded method (double)
+        emp1.setSalary(60000.0);
+
+        // Display employee details
+        emp1.displayDetails();
+
+        System.out.println();
+
+        // Create another Employee object using the constructor with name, employeeId, and salary
+        Employee emp2 = new Employee("Jane Smith", 102, 75000.0);
+
+        // Display employee details
+        emp2.displayDetails();
+
+        System.out.println();
+
+        // Set salary using the overloaded method (int)
+        emp2.setSalary(80000);
+
+        // Display updated employee details
+        emp2.displayDetails();
+    }
+}
+
+
+3
+
+public class Employee {
+    private String name;
+    private int employeeId;
+    private double salary;
+
+    // Constructor with name and employeeId
+    public Employee(String name, int employeeId) {
+        this.name = name;
+        this.employeeId = employeeId;
+    }
+
+    // Overloaded constructor with name, employeeId, and salary
+    public Employee(String name, int employeeId, double salary) {
+        this.name = name;
+        this.employeeId = employeeId;
+        this.salary = salary;
+    }
+
+    // Overloaded method to set salary
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    // Overloaded method to set salary (accepts int)
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    // Overloaded method to display employee details
+    public void displayDetails() {
+        System.out.println("Employee ID: " + employeeId);
+        System.out.println("Name: " + name);
+        System.out.println("Salary: $" + salary);
+    }
+
+    public static void main(String[] args) {
+        // Create an Employee object using the constructor with name and employeeId
+        Employee emp1 = new Employee("John Doe", 101);
+
+        // Set salary using the overloaded method (double)
+        emp1.setSalary(60000.0);
+
+        // Display employee details
+        emp1.displayDetails();
+
+        System.out.println();
+
+        // Create another Employee object using the constructor with name, employeeId, and salary
+        Employee emp2 = new Employee("Jane Smith", 102, 75000.0);
+
+        // Display employee details
+        emp2.displayDetails();
+
+        System.out.println();
+
+        // Set salary using the overloaded method (int)
+        emp2.setSalary(80000);
+
+        // Display updated employee details
+        emp2.displayDetails();
+    }
+}
